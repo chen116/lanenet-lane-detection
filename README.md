@@ -1,3 +1,5 @@
+export PYTHONPATH="${PYTHONPATH}:$(pwd)/config"
+
 # LaneNet-Lane-Detection
 Use tensorflow to implement a Deep Neural Network for real time lane detection mainly based on the IEEE IV conference 
 paper "Towards End-to-End Lane Detection: an Instance Segmentation Approach".You can refer to their paper for details 
